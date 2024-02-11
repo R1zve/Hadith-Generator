@@ -1,5 +1,5 @@
-import { htmlDecodeTree, determineBranch, BinTrieFlags } from '../src/pkg/entities.lib.decode.v4.5.0.js';
-import { escapeText, escapeAttribute } from '../src/pkg/entities.lib.escape.v4.5.0.js';
+import { htmlDecodeTree, determineBranch, BinTrieFlags } from '../pkg/entities.lib.decode.v4.5.0.js';
+import { escapeText, escapeAttribute } from '../pkg/entities.lib.escape.v4.5.0.js';
 
 const UNDEFINED_CODE_POINTS = new Set([
     65534, 65535, 131070, 131071, 196606, 196607, 262142, 262143, 327678, 327679, 393214,
