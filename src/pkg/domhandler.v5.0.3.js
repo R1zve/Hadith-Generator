@@ -1,4 +1,4 @@
-import { ElementType, isTag as isTag$1 } from '../src/pkg/domelementtype.v2.3.0.js';
+import { ElementType, isTag as isTag$1 } from '../pkg/domelementtype.v2.3.0.js';
 
 /**
  * This object will be used as the prototype for Nodes when creating a
