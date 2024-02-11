@@ -1,7 +1,7 @@
-import * as DomUtils from '../src/pkg/domutils.v3.1.0.js';
-import boolbase from '../src/pkg/boolbase.v1.0.0.js';
-import { SelectorType, AttributeAction, parse } from '../src/pkg/css-what.v6.1.0.js';
-import getNCheck from '../src/pkg/nth-check.v2.1.1.js';
+import * as DomUtils from '../pkg/domutils.v3.1.0.js';
+import boolbase from '../pkg/boolbase.v1.0.0.js';
+import { SelectorType, AttributeAction, parse } from '../pkg/css-what.v6.1.0.js';
+import getNCheck from '../pkg/nth-check.v2.1.1.js';
 
 const procedure = new Map([
     [SelectorType.Universal, 50],
