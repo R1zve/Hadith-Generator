@@ -1,12 +1,12 @@
-import { xmlDecodeTree, htmlDecodeTree, determineBranch, BinTrieFlags, replaceCodePoint, fromCodePoint } from '/_snowpack/pkg/entities.lib.decode.v4.5.0.js';
-import { DomHandler } from '/_snowpack/pkg/domhandler.v5.0.3.js';
-export { DomHandler as DefaultHandler, DomHandler } from '/_snowpack/pkg/domhandler.v5.0.3.js';
-import * as domelementtype from '/_snowpack/pkg/domelementtype.v2.3.0.js';
+import { xmlDecodeTree, htmlDecodeTree, determineBranch, BinTrieFlags, replaceCodePoint, fromCodePoint } from '/src/pkg/entities.lib.decode.v4.5.0.js';
+import { DomHandler } from '/src/pkg/domhandler.v5.0.3.js';
+export { DomHandler as DefaultHandler, DomHandler } from '/src/pkg/domhandler.v5.0.3.js';
+import * as domelementtype from '/src/pkg/domelementtype.v2.3.0.js';
 export { domelementtype as ElementType };
-import { getFeed } from '/_snowpack/pkg/domutils.v3.1.0.js';
-import * as domutils from '/_snowpack/pkg/domutils.v3.1.0.js';
+import { getFeed } from '/src/pkg/domutils.v3.1.0.js';
+import * as domutils from '/src/pkg/domutils.v3.1.0.js';
 export { domutils as DomUtils };
-export { getFeed } from '/_snowpack/pkg/domutils.v3.1.0.js';
+export { getFeed } from '/src/pkg/domutils.v3.1.0.js';
 
 var CharCodes;
 (function (CharCodes) {
