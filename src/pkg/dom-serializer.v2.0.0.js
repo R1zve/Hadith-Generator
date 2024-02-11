@@ -1,5 +1,5 @@
-import { Text, Tag, Style, Script, CDATA, Comment, Directive, Doctype, Root } from '/_snowpack/pkg/domelementtype.v2.3.0.js';
-import { encodeXML, escapeText, escapeAttribute } from '/_snowpack/pkg/entities.v4.5.0.js';
+import { Text, Tag, Style, Script, CDATA, Comment, Directive, Doctype, Root } from '/src/pkg/domelementtype.v2.3.0.js';
+import { encodeXML, escapeText, escapeAttribute } from '/src/pkg/entities.v4.5.0.js';
 
 const elementNames = new Map([
     "altGlyph",
