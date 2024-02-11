@@ -1,5 +1,5 @@
-import { html } from '/src/pkg/parse5.v7.1.2.js';
-import { isComment, isTag, isText, Document, Element, Comment, isDirective, ProcessingInstruction, Text } from '/src/pkg/domhandler.v5.0.3.js';
+import { html } from '../src/pkg/parse5.v7.1.2.js';
+import { isComment, isTag, isText, Document, Element, Comment, isDirective, ProcessingInstruction, Text } from '../src/pkg/domhandler.v5.0.3.js';
 
 function createTextNode(value) {
     return new Text(value);
