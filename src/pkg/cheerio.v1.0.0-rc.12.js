@@ -1,10 +1,10 @@
-import { textContent, innerText, uniqueSort, nextElementSibling, prevElementSibling, getSiblings, getChildren, removeElement } from '../src/pkg/domutils.v3.1.0.js';
-import { cloneNode, Document, isTag, isDocument, hasChildren, Text } from '../src/pkg/domhandler.v5.0.3.js';
-import { select, filter as filter$1, is as is$1, some } from '../src/pkg/cheerio-select.v2.1.0.js';
-import { serializeOuter, parse as parse$2, parseFragment } from '../src/pkg/parse5.v7.1.2.js';
-import { adapter } from '../src/pkg/parse5-htmlparser2-tree-adapter.v7.0.0.js';
-import renderWithHtmlparser2 from '../src/pkg/dom-serializer.v2.0.0.js';
-import { parseDocument } from '../src/pkg/htmlparser2.v8.0.2.js';
+import { textContent, innerText, uniqueSort, nextElementSibling, prevElementSibling, getSiblings, getChildren, removeElement } from '../pkg/domutils.v3.1.0.js';
+import { cloneNode, Document, isTag, isDocument, hasChildren, Text } from '../pkg/domhandler.v5.0.3.js';
+import { select, filter as filter$1, is as is$1, some } from '../pkg/cheerio-select.v2.1.0.js';
+import { serializeOuter, parse as parse$2, parseFragment } from '../pkg/parse5.v7.1.2.js';
+import { adapter } from '../pkg/parse5-htmlparser2-tree-adapter.v7.0.0.js';
+import renderWithHtmlparser2 from '../pkg/dom-serializer.v2.0.0.js';
+import { parseDocument } from '../pkg/htmlparser2.v8.0.2.js';
 
 const defaultOpts = {
     xml: false,
