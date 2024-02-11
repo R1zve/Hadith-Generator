@@ -1,7 +1,7 @@
-import {decodeHTML, decodeXML, DecodingMode} from '/src/pkg/entities.lib.decode.v4.5.0.js';
-export {DecodingMode, EntityDecoder, decodeHTML, decodeHTML as decodeHTML4, decodeHTMLStrict as decodeHTML4Strict, decodeHTML as decodeHTML5, decodeHTMLStrict as decodeHTML5Strict, decodeHTMLAttribute, decodeHTMLStrict, decodeXML, decodeXML as decodeXMLStrict} from '/src/pkg/entities.lib.decode.v4.5.0.js';
-import {xmlReplacer, getCodePoint, escapeUTF8, escapeAttribute, escapeText, encodeXML} from '/src/pkg/entities.lib.escape.v4.5.0.js';
-export {encodeXML, escape, escapeAttribute, escapeText, escapeUTF8} from '/src/pkg/entities.lib.escape.v4.5.0.js';
+import {decodeHTML, decodeXML, DecodingMode} from '../src/pkg/entities.lib.decode.v4.5.0.js';
+export {DecodingMode, EntityDecoder, decodeHTML, decodeHTML as decodeHTML4, decodeHTMLStrict as decodeHTML4Strict, decodeHTML as decodeHTML5, decodeHTMLStrict as decodeHTML5Strict, decodeHTMLAttribute, decodeHTMLStrict, decodeXML, decodeXML as decodeXMLStrict} from '../src/pkg/entities.lib.decode.v4.5.0.js';
+import {xmlReplacer, getCodePoint, escapeUTF8, escapeAttribute, escapeText, encodeXML} from '../src/pkg/entities.lib.escape.v4.5.0.js';
+export {encodeXML, escape, escapeAttribute, escapeText, escapeUTF8} from '../src/pkg/entities.lib.escape.v4.5.0.js';
 
 // Generated using scripts/write-encode-map.ts
 function restoreDiff(arr) {
