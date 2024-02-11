@@ -1,4 +1,4 @@
-import boolbase from '../src/pkg/boolbase.v1.0.0.js';
+import boolbase from '../pkg/boolbase.v1.0.0.js';
 
 // Following http://www.w3.org/TR/css3-selectors/#nth-child-pseudo
 // Whitespace as per https://www.w3.org/TR/selectors-3/#lex is " \t\r\n\f"
