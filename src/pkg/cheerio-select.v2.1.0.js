@@ -1,9 +1,9 @@
-import { SelectorType, parse, isTraversal } from '/src/pkg/css-what.v6.1.0.js';
-import { _compileToken, prepareContext } from '/src/pkg/css-select.v5.1.0.js';
-export { aliases, filters, pseudos } from '/src/pkg/css-select.v5.1.0.js';
-import * as DomUtils from '/src/pkg/domutils.v3.1.0.js';
-import { isTag, find as find$1, uniqueSort, getChildren } from '/src/pkg/domutils.v3.1.0.js';
-import { trueFunc } from '/src/pkg/boolbase.v1.0.0.js';
+import { SelectorType, parse, isTraversal } from '../src/pkg/css-what.v6.1.0.js';
+import { _compileToken, prepareContext } from '../src/pkg/css-select.v5.1.0.js';
+export { aliases, filters, pseudos } from '../src/pkg/css-select.v5.1.0.js';
+import * as DomUtils from '../src/pkg/domutils.v3.1.0.js';
+import { isTag, find as find$1, uniqueSort, getChildren } from '../src/pkg/domutils.v3.1.0.js';
+import { trueFunc } from '../src/pkg/boolbase.v1.0.0.js';
 
 const filterNames = new Set([
     "first",
