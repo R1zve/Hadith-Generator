@@ -1,7 +1,7 @@
-import { hasChildren, isTag, isCDATA, isText, isComment } from '/_snowpack/pkg/domhandler.v5.0.3.js';
-export { hasChildren, isCDATA, isComment, isDocument, isTag, isText } from '/_snowpack/pkg/domhandler.v5.0.3.js';
-import renderHTML from '/_snowpack/pkg/dom-serializer.v2.0.0.js';
-import { ElementType } from '/_snowpack/pkg/domelementtype.v2.3.0.js';
+import { hasChildren, isTag, isCDATA, isText, isComment } from '/src/pkg/domhandler.v5.0.3.js';
+export { hasChildren, isCDATA, isComment, isDocument, isTag, isText } from '/src/pkg/domhandler.v5.0.3.js';
+import renderHTML from '/src/pkg/dom-serializer.v2.0.0.js';
+import { ElementType } from '/src/pkg/domelementtype.v2.3.0.js';
 
 /**
  * @category Stringify
